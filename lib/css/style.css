@@ -57,7 +57,7 @@ body { margin: 0; }
 
 a { color: #454545; font-weight: 300;}
 a:visited { color: #454545; }
-a:hover { color: #3498db; }
+a:hover { color: #1286dd; }
 a:hover, a:active, a:focus { outline: 0; }
 
 abbr[title] { border-bottom: 1px dotted; }
@@ -306,16 +306,16 @@ a.button_blue{
 
 a.button_blue{
 	background-color: transparent;
-	border:1px solid #3498db;
-	color:#3498db;
+	border:1px solid #1286dd;
+	color:#1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
 }
 
 a.button_blue:hover{
-	background-color:#3498db;
-	border:1px solid #3498db;
+	background-color:#1286dd;
+	border:1px solid #1286dd;
 	color:#fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -418,7 +418,7 @@ a.button_blue:hover{
 	display:inline-block;
 	width:8px;
 	height:8px;
-	border:3px solid #34b1c4;
+	border:3px solid #dd6912;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
     border-radius:7px;
@@ -428,7 +428,7 @@ a.button_blue:hover{
 	float:left;
 	width:4px;
 	height:4px;
-	background-color:#34b1c4;
+	background-color:#dd6912;
 	border:2px solid #fff;
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
@@ -439,7 +439,7 @@ a.button_blue:hover{
 	float:left;
 	width:4px;
 	height:4px;
-	background-color:#34b1c4;
+	background-color:#dd6912;
 	border:2px solid #393f43;
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
@@ -447,7 +447,7 @@ a.button_blue:hover{
 }
 
 .separator_wrapper::after, .separator_wrapper::before {
-	background-color: #34b1c4;
+	background-color: #dd6912;
 	display: inline-block;
 	vertical-align: middle;
 	content: "";
@@ -510,7 +510,7 @@ h6{
 }
 
 .blue{
-	color:#3498db;
+	color:#1286dd;
 }
 
 .white{
@@ -550,7 +550,7 @@ ul#nav li a i:hover {
   transition: all .5s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
-  color:#3498db;
+  color:#1286dd;
 }
 
 /* ========================================================== */
@@ -600,7 +600,7 @@ ul#nav li a i:hover {
 a#logo {
     position: relative;
 	float:left;
-	margin:23px 0 0 0;
+	/*margin:23px 0 0 0;*/
 	z-index:900;
 	font-family: 'Pacifico', cursive;
 	font-size:24px;
@@ -640,7 +640,7 @@ a#logo {
 }
 
 #nav .current a, #nav li a:hover {
-	color:#3498db;
+	color:#1286dd;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -656,7 +656,7 @@ a#logo {
 	background-color:#2f3539;
 	border-top:1px solid #2a2f37;
 	z-index:100;
-	padding:50px 0 20px 0;
+	padding:10px 0 5px 0;
 }
 
 #footer_box {
@@ -685,7 +685,9 @@ a#logo {
 #home_wrapper{
 	width:100%;
 	z-index:1;
-	background: url(http://placehold.it/1920x1280);
+	/*background: url(../images/bg3.png);*/
+	/*background: url(https://static.pexels.com/photos/286320/pexels-photo-286320.jpeg);*/
+	background: url(../images/topBg.png);
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -703,7 +705,7 @@ a#logo {
 h2.home_title{
 	font-size: 68px;
 	line-height: 68px;
-	font-weight: 300;
+	font-weight: 500;
 	letter-spacing: 1.5px;
 	text-align: center;
 	color: #fff;
@@ -758,7 +760,7 @@ h3.home_subtitle{
 #newsletter-form #submit-button-newsletter {
     width: 140px;
 	height:46px;
-    background-color:#3498db;
+    background-color:#1286dd;
 	border: none;
     color:#fff;
     display: inline;
@@ -849,7 +851,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .services_item:hover h2{
-	color:#34b1c4;
+	color:#dd6912;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -886,7 +888,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .services_item:hover .services_icon{
-	color:#34b1c4;
+	color:#dd6912;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -907,16 +909,16 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 .services_item:hover a.services_button{
 	background-color: transparent;
-	border:1px solid #34b1c4;
-	color:#34b1c4;
+	border:1px solid #dd6912;
+	color:#dd6912;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
 }
 
 .services_item a.services_button:hover{
-	background-color:#34b1c4;
-	border:1px solid #34b1c4;
+	background-color:#dd6912;
+	border:1px solid #dd6912;
 	color:#fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -931,7 +933,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 	width:100%;
 	margin-top:-120px;
 	position:relative;
-	background-color:#34b1c4;
+	background-color:#dd6912;
 }
 
 .testimonials_box{
@@ -1001,7 +1003,7 @@ img.testimonials_picture{
 	width:100px;
 	height:100px;
 	padding:5px 5px;
-	background-color:#34b1c4;
+	background-color:#dd6912;
 	border:1px solid #fff;
 	-webkit-border-radius: 56px;
     -moz-border-radius: 56px;
@@ -1081,7 +1083,7 @@ p.testimonials_text {
 }
 
 .fun_fact_wrapper:hover span, .fun_fact_wrapper:hover .fun_fact_icon{
-	color:#34b1c4;
+	color:#dd6912;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -1119,7 +1121,7 @@ h3.blog_title a{
 }
 
 h3.blog_title a:hover{
-	color:#3498db;
+	color:#1286dd;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -1141,7 +1143,7 @@ a.blog_icons.last{
 }
 
 a.blog_icons:hover{
-	color:#3498db;
+	color:#1286dd;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -1163,7 +1165,7 @@ a.blog_icons:hover{
 }
 
 .blog_comments_icon:hover{
-	color:#3498db;
+	color:#1286dd;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -1171,8 +1173,8 @@ a.blog_icons:hover{
 
 a.button_grey{
 	background-color: transparent;
-	border:1px solid #3498db;
-	color:#3498db;
+	border:1px solid #1286dd;
+	color:#1286dd;
 	display:inline-block;
 	font-weight:400;
 	font-size:13px;
@@ -1187,8 +1189,8 @@ a.button_grey{
 }
 
 a.button_grey:hover{
-	background-color:#3498db;
-	border:1px solid #3498db;
+	background-color:#1286dd;
+	border:1px solid #1286dd;
 	color:#fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -1204,7 +1206,8 @@ a.button_grey:hover{
 	padding-left:5%;
 	padding-right:5%;
 	z-index:1;
-	background: url(http://placehold.it/1920x1280);
+	background: url(../images/bottomBg.png);
+	/*background: url(https://static.pexels.com/photos/209209/pexels-photo-209209.jpeg);*/
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1229,6 +1232,7 @@ h4.info_title{
 
 h4.info_title span{
 	padding:0 18px;
+  font-size: 32px;
 }
 
 h4.info_title::after, h4.info_title::before {
@@ -1243,9 +1247,11 @@ h4.info_title::after, h4.info_title::before {
 
 
 p.info_text{
-	line-height: 28px;
+	line-height: 32px;
 	color: #fff;
 	margin-bottom: 35px;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 a.info_button_white, a.info_button_transparent{
@@ -1494,8 +1500,8 @@ textarea{
 
 input.contact-submit{
 	color: #fff;
-	border: 2px solid #34b1c4;
-	background-color: #34b1c4;
+	border: 2px solid #dd6912;
+	background-color: #dd6912;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -1509,9 +1515,9 @@ input.contact-submit{
 }
 
 input.contact-submit:hover{
-	color:#34b1c4;
+	color:#dd6912;
 	background-color: transparent;
-	border:2px solid #34b1c4;
+	border:2px solid #dd6912;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -1650,8 +1656,8 @@ p.contact_success_box{
 	font-size: 24px;
 	font-weight:600;
 	color:#fff;
-	border: 1px solid #34b1c4;
-	background-color: #34b1c4;
+	border: 1px solid #dd6912;
+	background-color: #dd6912;
 	position: relative;
 	-webkit-border-radius: 25px 25px;
     -moz-border-radius: 25px 25px;
@@ -1662,8 +1668,8 @@ p.contact_success_box{
 }
 
 .featured_dropcap:hover .dropcaps_icon {
-	color:#3498db;
-	border: 1px solid #3498db;
+	color:#1286dd;
+	border: 1px solid #1286dd;
 	background-color: #fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -1719,7 +1725,7 @@ ul.social_icons li a i:hover {
   transition: all .5s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
-  color:#3498db;
+  color:#1286dd;
 }
 
 /* ========================================================== */

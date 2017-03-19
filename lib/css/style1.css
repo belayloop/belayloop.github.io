@@ -432,7 +432,7 @@ a.button_blue:hover{
 	display:inline-block;
 	width:8px;
 	height:8px;
-	border:3px solid #34b1c4;
+	border:3px solid 1286dd;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
     border-radius:7px;
@@ -442,7 +442,7 @@ a.button_blue:hover{
 	float:left;
 	width:4px;
 	height:4px;
-	background-color:#34b1c4;
+	background-color:1286dd;
 	border:2px solid #fff;
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
@@ -453,7 +453,7 @@ a.button_blue:hover{
 	float:left;
 	width:4px;
 	height:4px;
-	background-color:#34b1c4;
+	background-color:1286dd;
 	border:2px solid #393f43;
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
@@ -461,7 +461,7 @@ a.button_blue:hover{
 }
 
 .separator_wrapper::after, .separator_wrapper::before {
-	background-color: #34b1c4;
+	background-color: 1286dd;
 	display: inline-block;
 	vertical-align: middle;
 	content: "";
@@ -995,7 +995,7 @@ img.testimonials_picture{
 	width:100px;
 	height:100px;
 	padding:5px 5px;
-	background-color:#34b1c4;
+	background-color:1286dd;
 	border:1px solid #fff;
 	-webkit-border-radius: 56px;
     -moz-border-radius: 56px;
@@ -1113,7 +1113,7 @@ h3.blog_title a{
 }
 
 h3.blog_title a:hover{
-	color:#3498db;
+	color:#1286dd;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -1135,7 +1135,7 @@ a.blog_icons.last{
 }
 
 a.blog_icons:hover{
-	color:#3498db;
+	color:#1286dd;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -1157,7 +1157,7 @@ a.blog_icons:hover{
 }
 
 .blog_comments_icon:hover{
-	color:#3498db;
+	color:#1286dd;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -1165,8 +1165,8 @@ a.blog_icons:hover{
 
 a.button_grey{
 	background-color: transparent;
-	border:1px solid #3498db;
-	color:#3498db;
+	border:1px solid #1286dd;
+	color:#1286dd;
 	display:inline-block;
 	font-weight:400;
 	font-size:13px;
@@ -1181,8 +1181,8 @@ a.button_grey{
 }
 
 a.button_grey:hover{
-	background-color:#3498db;
-	border:1px solid #3498db;
+	background-color:#1286dd;
+	border:1px solid #1286dd;
 	color:#fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -1656,8 +1656,8 @@ p.contact_success_box{
 }
 
 .featured_dropcap:hover .dropcaps_icon {
-	color:#3498db;
-	border: 1px solid #3498db;
+	color:#1286dd;
+	border: 1px solid #1286dd;
 	background-color: #fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
