@@ -57,7 +57,7 @@ body { margin: 0; }
 
 a { color: #454545; font-weight: 300;}
 a:visited { color: #454545; }
-a:hover { color: #3498db; }
+a:hover { color: #1286dd; }
 a:hover, a:active, a:focus { outline: 0; }
 
 abbr[title] { border-bottom: 1px dotted; }
@@ -229,6 +229,20 @@ p, a, ul, ol, dl, table, fieldset, blockquote {
 }
 
 /* ========================================================== */
+/* 				  	          CUSTOM STYLES                         */
+/* ========================================================== */
+
+#logo {
+	/*max-width: 281px;
+	max-height: 52.6px;*/
+	margin: 10px;
+}
+
+#logoImg {
+	margin-top: 10px;
+}
+
+/* ========================================================== */
 /* 				  		 03. GENERAL LAYOUT                   */
 /* ========================================================== */
 
@@ -306,16 +320,16 @@ a.button_blue{
 
 a.button_blue{
 	background-color: transparent;
-	border:1px solid #3498db;
-	color:#3498db;
+	border:1px solid #1286dd;
+	color:#1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
 }
 
 a.button_blue:hover{
-	background-color:#3498db;
-	border:1px solid #3498db;
+	background-color:#1286dd;
+	border:1px solid #1286dd;
 	color:#fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -510,7 +524,7 @@ h6{
 }
 
 .blue{
-	color:#3498db;
+	color:#1286dd;
 }
 
 .white{
@@ -534,26 +548,6 @@ h6{
 }
 
 /* ========================================================== */
-/* 						    CUSTOM STYLES                        */
-/* ========================================================== */
-
-ul#nav li a i {
-  font-size:36px;
-  line-height: 36px;
-  color: #757575;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -webkit-transition: all .25s ease-in-out;
-}
-
-ul#nav li a i:hover {
-  transition: all .5s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -webkit-transition: all .25s ease-in-out;
-  color:#3498db;
-}
-
-/* ========================================================== */
 /* 						    04. HEADER                        */
 /* ========================================================== */
 
@@ -561,8 +555,8 @@ ul#nav li a i:hover {
 #header_wrapper{
 	position: fixed;
 	width: 100%;
-	height:70px;
-	padding:10px 0;
+	height:90px;
+	padding:0px 0;
 	background-color: rgb(255, 255, 255);
 	background-color: rgba(255, 255, 255, .95);
 	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
@@ -576,8 +570,8 @@ ul#nav li a i:hover {
 
 #header_wrapper.shrink {
 	width:100%;
-	height:70px;
-	padding:0;
+	height:90px;
+	padding:30;
 	z-index:1000;
 	background-color: rgb(255, 255, 255);
 	background-color: rgba(255, 255, 255, .95);
@@ -597,7 +591,7 @@ ul#nav li a i:hover {
 }
 
 /* ----- 2. Logo ----- */
-a#logo {
+/*a#logo {
     position: relative;
 	float:left;
 	margin:23px 0 0 0;
@@ -607,7 +601,7 @@ a#logo {
 	line-height:22px;
 	color:#454545;
 }
-
+*/
 /* ----- 3. Navigation ----- */
 #nav {
 	margin: 0;
@@ -640,7 +634,7 @@ a#logo {
 }
 
 #nav .current a, #nav li a:hover {
-	color:#3498db;
+	color:#1286dd;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -685,7 +679,7 @@ a#logo {
 #home_wrapper{
 	width:100%;
 	z-index:1;
-	background: url(http://placehold.it/1920x1280);
+	background: url(../images/bg2.jpg);
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -701,8 +695,8 @@ a#logo {
 }
 
 h2.home_title{
-	font-size: 68px;
-	line-height: 68px;
+	font-size: 48px;
+	line-height: 48px;
 	font-weight: 300;
 	letter-spacing: 1.5px;
 	text-align: center;
@@ -714,7 +708,7 @@ h2.home_title{
 
 h3.home_subtitle{
 	font-weight: 300;
-	font-size: 26px;
+	font-size: 24px;
 	line-height: 32px;
 	color: #fff;
 	margin-bottom: 35px;
@@ -733,8 +727,8 @@ h3.home_subtitle{
 	margin:0 auto;
 	max-width:555px;
 	padding: 18px 14px 18px 18px;
-	background-color:rgb(0, 0, 0);
-	background-color:rgba(0, 0, 0, 0.4);
+	background-color:rgb(0, 0, 0, 1);
+	background-color:rgba(0, 0, 0, .3);
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
     border-radius:5px;
@@ -758,7 +752,7 @@ h3.home_subtitle{
 #newsletter-form #submit-button-newsletter {
     width: 140px;
 	height:46px;
-    background-color:#3498db;
+    background-color:#1286dd;
 	border: none;
     color:#fff;
     display: inline;
@@ -849,7 +843,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .services_item:hover h2{
-	color:#34b1c4;
+	color:#1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -886,7 +880,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .services_item:hover .services_icon{
-	color:#34b1c4;
+	color:#1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -907,16 +901,16 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 .services_item:hover a.services_button{
 	background-color: transparent;
-	border:1px solid #34b1c4;
-	color:#34b1c4;
+	border:1px solid #1286dd;
+	color:#1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
 }
 
 .services_item a.services_button:hover{
-	background-color:#34b1c4;
-	border:1px solid #34b1c4;
+	background-color:#1286dd;
+	border:1px solid #1286dd;
 	color:#fff;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
@@ -931,7 +925,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 	width:100%;
 	margin-top:-120px;
 	position:relative;
-	background-color:#34b1c4;
+	background-color:#dd6912;
 }
 
 .testimonials_box{
@@ -1081,7 +1075,7 @@ p.testimonials_text {
 }
 
 .fun_fact_wrapper:hover span, .fun_fact_wrapper:hover .fun_fact_icon{
-	color:#34b1c4;
+	color:#1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -1204,7 +1198,7 @@ a.button_grey:hover{
 	padding-left:5%;
 	padding-right:5%;
 	z-index:1;
-	background: url(http://placehold.it/1920x1280);
+	background: url(../images/bg2.jpg);
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1494,8 +1488,8 @@ textarea{
 
 input.contact-submit{
 	color: #fff;
-	border: 2px solid #34b1c4;
-	background-color: #34b1c4;
+	border: 2px solid #1286dd;
+	background-color: #1286dd;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -1509,9 +1503,9 @@ input.contact-submit{
 }
 
 input.contact-submit:hover{
-	color:#34b1c4;
+	color:#1286dd;
 	background-color: transparent;
-	border:2px solid #34b1c4;
+	border:2px solid #1286dd;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -1650,8 +1644,8 @@ p.contact_success_box{
 	font-size: 24px;
 	font-weight:600;
 	color:#fff;
-	border: 1px solid #34b1c4;
-	background-color: #34b1c4;
+	border: 1px solid #1286dd;
+	background-color: #1286dd;
 	position: relative;
 	-webkit-border-radius: 25px 25px;
     -moz-border-radius: 25px 25px;
@@ -1719,7 +1713,7 @@ ul.social_icons li a i:hover {
   transition: all .5s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
-  color:#3498db;
+  color:#1286dd;
 }
 
 /* ========================================================== */
