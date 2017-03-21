@@ -557,6 +557,10 @@ ul#nav li a i:hover {
   display: none !important;
 }
 
+#info_p {
+  font-weight: 400;
+}
+
 /* ========================================================== */
 /* 						    04. HEADER                        */
 /* ========================================================== */
@@ -1255,7 +1259,7 @@ p.info_text{
 	color: #fff;
 	margin-bottom: 35px;
   font-size: 22px;
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 a.info_button_white, a.info_button_transparent{
